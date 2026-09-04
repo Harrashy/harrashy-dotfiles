@@ -1,0 +1,152 @@
+{
+  "bar": {
+    "position": "top",
+    "transparent": true,
+    "centerAnchor": "io.github.guiestrela.omarchy-google-calendar-clock",
+    "layout": {
+      "left": [
+        {
+          "id": "omarchy.spacer",
+          "size": 50
+        }
+      ],
+      "center": [
+        {
+          "id": "harrashy.workspaces"
+        },
+        {
+          "id": "hancore.bongocat",
+          "active": true,
+          "positionLocked": true,
+          "positionX": 0,
+          "positionY": 3,
+          "catWidth": 60,
+          "keypressDuration": 105,
+          "keyboardName": "AT Translated Set 2 keyboard",
+          "monitorName": "eDP-1",
+          "workspaceId": 0,
+          "colorMode": "default",
+          "customColor": "#f0abab"
+        },
+        {
+          "id": "io.github.nag3sy.feishin"
+        },
+        {
+          "id": "omarchy.media",
+          "barWidth": 253
+        },
+        {
+          "id": "harrashy.cava"
+        },
+        {
+          "id": "io.github.guiestrela.omarchy-google-calendar-clock",
+          "format": "ddd d MMM HH:mm",
+          "birthYear": 1997,
+          "lifeExpectancy": 100,
+          "lastCalendarPull": "2026-09-04T14:25:11.496Z",
+          "calendarColorMode": "theme"
+        },
+        {
+          "id": "harrashy.weather"
+        },
+        {
+          "id": "harrashy.indicators",
+          "items": [
+            "NightLight",
+            "StayAwake"
+          ],
+          "alwaysShow": true
+        },
+        {
+          "id": "anttiak.lofeline"
+        },
+        {
+          "id": "omarchy.system-update"
+        },
+        {
+          "id": "omarchy.spacer",
+          "size": 65
+        },
+        {
+          "id": "so.den",
+          "popupMaxHeight": 120,
+          "popupMaxWidth": 196
+        },
+        {
+          "id": "harrashy.notifications"
+        },
+        {
+          "id": "io.github.denisdmarques.openvpn-certpass"
+        },
+        {
+          "id": "io.github.cempack.hearth"
+        },
+        {
+          "id": "edbron.cloud-drives"
+        },
+        {
+          "id": "io.github.vuhuy.clipboard-manager"
+        },
+        {
+          "id": "omarchy.dropbox"
+        },
+        {
+          "id": "omarchy.audio"
+        },
+        {
+          "id": "io.github.ncr.omaphones",
+          "showPercentage": true,
+          "hideWhenDisconnected": false
+        },
+        {
+          "id": "harrashy.agents"
+        },
+        {
+          "id": "nille.listen"
+        },
+        {
+          "id": "omarchy.bluetooth"
+        },
+        {
+          "id": "omarchy.network"
+        },
+        {
+          "id": "omarchy.monitor"
+        },
+        {
+          "id": "omarchy.power",
+          "showPercentage": true
+        }
+      ],
+      "right": [
+        {
+          "id": "omarchy.spacer",
+          "size": 30
+        }
+      ]
+    }
+  },
+  "cloneSourceRestores": [
+    "harrashy.lock"
+  ],
+  "disabledPlugins": [
+    "omarchy.lock",
+    "omarchy.notifications"
+  ],
+  "idle": {
+    "screensaver": 150,
+    "lock": 300
+  },
+  "plugins": [
+    {
+      "id": "shell.settings"
+    },
+    {
+      "id": "harrashy.lock"
+    },
+    {
+      "id": "harrashy.notifications-service"
+    }
+  ],
+  "version": 1
+}
