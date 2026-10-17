@@ -22,17 +22,17 @@ hl.config({
     -- Window opacity for glassmorphism effect (0.0 = fully transparent, 1.0 = opaque).
     -- Active window stays mostly opaque, inactive gets glass-like dimming.
     active_opacity = 1.0,
-    inactive_opacity = 0.85,
+    inactive_opacity = 1.0,
 
     -- Dim unfocused windows (0.0 = no dim, 1.0 = fully dimmed).
-    dim_inactive = true,
+    dim_inactive = false,
     dim_strength = 0.25,
 
     -- Blur settings for glass effect
     blur = {
-      enabled = true,
+      enabled = false,
       size = 8,
-      passes = 4,
+      passes = 2,
       noise = 0.02,
       contrast = 1.0,
       brightness = 0.9,

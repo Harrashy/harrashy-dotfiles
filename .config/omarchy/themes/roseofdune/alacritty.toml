@@ -1,0 +1,38 @@
+# ────────────────────────────────────────────────────────────
+# Omarchy Custom Theme for Alacritty
+# Generated with Omarchist
+# ────────────────────────────────────────────────────────────
+
+[colors]
+[colors.primary]
+background = "#F5E6D3"
+foreground = "#35302a"
+dim_foreground = "#F5E6D3"
+
+[colors.cursor]
+text = "#35302a"
+cursor = "#DEA193"
+
+[colors.selection]
+text = "#35302a"
+background = "#c68d95"
+
+[colors.normal]
+black = "#F5E6D3"
+red = "#a02b16"
+green = "#9e4f5b"
+yellow = "#644535"
+blue = "#76634c"
+magenta = "#78292e"
+cyan = "#713a56"
+white = "#a94a34"
+
+[colors.bright]
+black = "#C8AC86"
+red = "#a02b16"
+green = "#9e4f5b"
+yellow = "#694C45"
+blue = "#76634c"
+magenta = "#78292e"
+cyan = "#713a56"
+white = "#a94a34"

@@ -7,9 +7,9 @@ TERM = "xterm-256color"
 osc52 = "CopyPaste"
 
 [font]
-normal = { family = "VictorMono Nerd Font" }
-bold = { family = "VictorMono Nerd Font" }
-italic = { family = "VictorMono Nerd Font" }
+normal = { family = "VictorMono Nerd Font Mono" }
+bold = { family = "VictorMono Nerd Font Mono" }
+italic = { family = "VictorMono Nerd Font Mono" }
 size = 9
 
 [window]

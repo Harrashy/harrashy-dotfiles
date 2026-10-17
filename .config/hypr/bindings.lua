@@ -105,5 +105,13 @@ hl.bind("SUPER + O", hl.dsp.exec_cmd("omarchy launch about"), { description = "A
 hl.bind("SUPER + H", hl.dsp.exec_cmd("/home/harrashy/AppImages/hydra.appimage --no-sandbox"), { description = "Hydra" })
 hl.bind("SUPER + SHIFT + K", hl.dsp.exec_cmd("omarchy-menu toggle power"), { description = "Power menu" })
 
+-- qylock (clockwork/tape) lockscreen replaces the default system lock
+hl.unbind("SUPER + CTRL + L")
+hl.bind(
+	"SUPER + CTRL + L",
+	hl.dsp.exec_cmd(os.getenv("HOME") .. "/.local/share/quickshell-lockscreen/lock.sh"),
+	{ description = "Lock system (qylock)" }
+)
+
 
 

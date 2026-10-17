@@ -1,0 +1,148 @@
+# Omarchy Quattro surfaces for Rose of Dune.
+# Cream surfaces, rose framing, wine accents, and the flat Walker selection
+# carry the legacy Waybar, Walker, Mako, SwayOSD, and Hyprlock identity forward.
+
+[bar]
+background = "#F5E6D3"
+background-alpha = 1.0
+text = "#9E4F5B"
+active = "#78292E"
+scale-with-font = true
+size-horizontal = 26
+size-vertical = 28
+
+[hyprland]
+active-border = "#9E4F5B"
+active-border-foreground = "#F5E6D3"
+
+[controls]
+normal-color = "#35302A"
+normal-fill-alpha = 0.04
+normal-border-width = 1
+normal-border-alpha = 0.28
+
+hover-cursor-color = "#9E4F5B"
+hover-cursor-fill-alpha = 0.09
+hover-cursor-border-width = 1
+hover-cursor-border-alpha = 0.48
+
+focus-color = "#DEA193"
+focus-fill-alpha = 0.12
+focus-border-width = 1
+focus-border-alpha = 0.82
+
+selected-color = "#C68D95"
+selected-fill-alpha = 0.18
+selected-border-width = 1
+selected-border-alpha = 0.58
+
+pressed-color = "#78292E"
+pressed-fill-alpha = 0.22
+selection-color = "#C68D95"
+selection-fill-alpha = 0.34
+
+[spacing]
+scale = 1.0
+scale-with-font = true
+xs = 2
+md = 4
+control-padding-y = 5
+panel-padding = 10
+
+[font]
+base-size = 12
+heading = 16
+icon-large = 18
+
+[popups]
+background = "#F5E6D3"
+background-alpha = 0.96
+text = "#9E4F5B"
+border = "hyprland.active-border"
+border-alpha = 1.0
+border-width = 2
+
+[tooltip]
+background = "#F5E6D3"
+background-alpha = 0.98
+text = "#35302A"
+border = "#C8AC86"
+border-alpha = 1.0
+border-width = 1
+
+[notifications]
+background = "#F5E6D3"
+background-alpha = 0.96
+text = "#35302A"
+border = "hyprland.active-border"
+border-alpha = 1.0
+border-width = 2
+countdown = "#9E4F5B"
+
+[launcher]
+background = "#F5E6D3"
+background-alpha = 0.97
+text = "#35302A"
+border = "hyprland.active-border"
+border-alpha = 1.0
+border-width = 2
+scrim = "#F5E6D3"
+scrim-alpha = 0.0
+selected-background = "#9E4F5B"
+selected-background-alpha = 0.22
+selected-text = "#78292E"
+selected-border = "#9E4F5B"
+selected-border-alpha = 0.0
+selected-border-width = 0
+
+[menu]
+background = "#F5E6D3"
+background-alpha = 0.97
+text = "#35302A"
+border = "hyprland.active-border"
+border-alpha = 1.0
+border-width = 2
+scrim = "#F5E6D3"
+scrim-alpha = 0.0
+selected-background = "#9E4F5B"
+selected-background-alpha = 0.22
+selected-text = "#78292E"
+selected-border = "#9E4F5B"
+selected-border-alpha = 0.0
+selected-border-width = 0
+
+[polkit]
+background = "#F5E6D3"
+background-alpha = 0.97
+text = "#35302A"
+text-error = "#A02B16"
+border = "hyprland.active-border"
+border-error = "#A02B16"
+border-alpha = 1.0
+border-width = 2
+scrim = "#35302A"
+scrim-alpha = 0.34
+accent = "#76634C"
+
+[lock]
+background = "#F5E6D3"
+background-alpha = 0.92
+text = "#9E4F5B"
+placeholder = "#9E4F5BB3"
+text-error = "#A02B16"
+border = "hyprland.active-border"
+border-active = "hyprland.active-border"
+border-error = "#A02B16"
+border-alpha = 1.0
+border-width = 2
+selection = "#C68D95"
+selection-alpha = 0.45
+
+[image-picker]
+scrim = "#35302A"
+scrim-alpha = 0.38
+text = "#F5E6D3"
+selected-border = "#9E4F5B"
+selected-border-alpha = 1.0
+unselected-border = "#76634C"
+unselected-border-alpha = 0.38

@@ -20,5 +20,8 @@ Thumbs.db
 # Neovim
 config/nvim/lazy-lock.json
 
-# Nested git repos
-*/.git/
+# Backup files
+*.bak.*
+
+# Nested git repos (any depth)
+**/.git/
