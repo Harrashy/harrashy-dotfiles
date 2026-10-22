@@ -1,0 +1,12 @@
+[Unit]
+Description=Re-apply the Quickshell Rise overrides (night light, weather, now playing)
+Documentation=file:%h/.config/quickshell/nightlight/apply.sh
+After=graphical-session.target
+
+[Service]
+Type=oneshot
+# Let a freshly restarted bar finish loading before we touch its config tree.
+ExecStartPre=-/bin/sh -c 'sleep 2'
+ExecStart=%h/.config/quickshell/nightlight/apply.sh
+ExecStart=%h/.config/quickshell/weather/apply.sh
+ExecStart=%h/.config/quickshell/mpris/apply.sh

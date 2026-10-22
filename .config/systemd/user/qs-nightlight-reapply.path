@@ -1,0 +1,13 @@
+[Unit]
+Description=Watch the Quickshell Rise bar for updates and re-apply local overrides
+
+[Path]
+# The updater atomically renames the bar directory aside and swaps a fresh tree
+# in. Watching the parent catches the rename swap; watching the bar tree itself
+# catches ordinary in-place edits.
+PathChanged=%h/.config/quickshell/bar
+PathChanged=%h/.config/quickshell
+Unit=qs-nightlight-reapply.service
+
+[Install]
+WantedBy=default.target
