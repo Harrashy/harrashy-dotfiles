@@ -86,6 +86,7 @@ info "Linking Quickshell Rise overrides..."
 link_dir "$DOTFILES_DIR/.config/quickshell/nightlight" "$CONFIG_DIR/quickshell/nightlight"
 link_dir "$DOTFILES_DIR/.config/quickshell/weather"    "$CONFIG_DIR/quickshell/weather"
 link_dir "$DOTFILES_DIR/.config/quickshell/mpris"      "$CONFIG_DIR/quickshell/mpris"
+link_dir "$DOTFILES_DIR/.config/quickshell/network"    "$CONFIG_DIR/quickshell/network"
 
 info "Linking Quickshell reapply watcher..."
 link_file "$DOTFILES_DIR/.config/systemd/user/qs-nightlight-reapply.path"    "$CONFIG_DIR/systemd/user/qs-nightlight-reapply.path"

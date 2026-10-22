@@ -1,6 +1,7 @@
 [Unit]
-Description=Re-apply the Quickshell Rise overrides (night light, weather, now playing)
+Description=Re-apply the Quickshell Rise overrides (night light, weather, now playing, network QR)
 Documentation=file:%h/.config/quickshell/nightlight/apply.sh
+Documentation=file:%h/.config/quickshell/network/apply.sh
 After=graphical-session.target
 
 [Service]
@@ -10,3 +11,4 @@ ExecStartPre=-/bin/sh -c 'sleep 2'
 ExecStart=%h/.config/quickshell/nightlight/apply.sh
 ExecStart=%h/.config/quickshell/weather/apply.sh
 ExecStart=%h/.config/quickshell/mpris/apply.sh
+ExecStart=%h/.config/quickshell/network/apply.sh
